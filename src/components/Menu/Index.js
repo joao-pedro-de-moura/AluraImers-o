@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Search from "./Components/Serch";
+import Search from "./components/Serch";
 
 const StyledMenu = styled.header`
   display: flex;
@@ -24,6 +24,7 @@ const StyledMenu = styled.header`
     }
   }
 `;
+
 
 export default function Menu({valorDaBusca, setValorDaBusca}) {
   return (
